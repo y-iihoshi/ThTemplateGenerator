@@ -17,6 +17,7 @@
                 new Th105Generator(),
                 new Th11Generator(),
                 new Th12Generator(),
+                new Th123Generator(),
                 new Th125Generator(),
                 new Th128Generator(),
                 new Th13Generator(),

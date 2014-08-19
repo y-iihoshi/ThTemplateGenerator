@@ -70,6 +70,7 @@
     <Compile Include="Th105Generator.cs" />
     <Compile Include="Th10Generator.cs" />
     <Compile Include="Th11Generator.cs" />
+    <Compile Include="Th123Generator.cs" />
     <Compile Include="Th125Generator.cs" />
     <Compile Include="Th128Generator.cs" />
     <Compile Include="Th12Generator.cs" />
