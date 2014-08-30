@@ -21,6 +21,7 @@
                 new Th125Generator(),
                 new Th128Generator(),
                 new Th13Generator(),
+                new Th135Generator(),
                 new Th14Generator(),
                 new Th143Generator()
             };

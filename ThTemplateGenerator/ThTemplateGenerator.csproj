@@ -74,6 +74,7 @@
     <Compile Include="Th125Generator.cs" />
     <Compile Include="Th128Generator.cs" />
     <Compile Include="Th12Generator.cs" />
+    <Compile Include="Th135Generator.cs" />
     <Compile Include="Th13Generator.cs" />
     <Compile Include="Th143Generator.cs" />
     <Compile Include="Th14Generator.cs" />
