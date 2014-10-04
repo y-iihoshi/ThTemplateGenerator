@@ -6,12 +6,10 @@ namespace ThTemplateGenerator
 {
     class Th135Generator : ThGenerator
     {
-        private const int MaxCardNumber = 64;
-
         private static readonly IEnumerable<string> Charas =
             new string[]
             {
-                "RM", "MR", "BY", "MK", "IU", "FT", "NT", "KO", "MM", "KK"
+                "RM", "MR", "IU", "BY", "FT", "MK", "NT", "KO", "MM", "KK"
             };
 
         private static readonly IEnumerable<string> CharasWithTotal =
@@ -23,8 +21,7 @@ namespace ThTemplateGenerator
             {
                 var formatsList = new IEnumerable<string>[]
                 {
-                    GenerateFormats("%T135CLEAR"),
-                    GenerateFormats("%T135CHARA", CharasWithTotal)
+                    GenerateFormats("%T135CLEAR", LevelsWithTotal, CharasWithTotal)
                 };
 
                 foreach (var formats in formatsList)
